@@ -1,0 +1,90 @@
+.gridTopContainer{
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-around;
+    height:60px;
+    padding-left: 300px;
+    padding-right: 150px;
+}
+
+.svg{
+   color: "white"
+}
+
+.cartNumber{
+    width: 20px;
+    z-index:auto;
+    color:white;
+    padding-left:4px;
+    margin-left:5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.flipkart_explore_plus{
+    margin-top: 5px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    
+}
+
+.img{
+    width:80px;
+    height:30px
+}
+
+
+.cartBtn{
+    background-color:transparent;
+     color:white;
+     border:transparent;
+}
+
+.input{
+    width:400px;
+    margin-left:0px;
+    height:30px;
+    margin-top:15px
+}
+
+.p{
+    size: small;
+    color:white;
+}
+
+
+.gridContainer{
+    display:grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    
+}
+
+.loginBtn{
+    color:blue;
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+    width:100px;
+    margin-top: 10px;
+    height:40px;
+}
+
+.moreBtn{
+    background-color: transparent;
+    color:white;
+    border: transparent;
+}
+
+
+.cartBtnContainer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
